@@ -13,9 +13,13 @@ const mala = new TechYogi('Mala', 28)
 const anna = new TechYogi('Anna', 26)
 const maria = new TechYogi('Maria', 27)
 
+//const loadedFile = Database.load()
+//Database.save(mala)
+
+
 console.log(anna, mala, maria)
 
-const yogasession1 = new Yogasession ('Yoga with WomenTechmakers', 'Berlin')
+const yogasession1 = new Yogasession ('Yoga with WomenTechmakers', '60', 'Berlin')
 
 
 console.log(yogasession1)

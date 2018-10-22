@@ -1,10 +1,16 @@
 const Chalk = require('chalk')
 
 module.exports = class Yogasession {
-    constructor(name, location) {
+    constructor(name, time, location, asana, pranayama, meditation) {
         this.name = name
+        this.time = time
         this.location = location
+        this.asana = asana
+        this.pranayama = pranayama
+        this.meditation = meditation
         this.attendees = []
+        
+        
     }
 
 
